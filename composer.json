@@ -1,0 +1,21 @@
+{
+    "name": "lightster/lzq-shell",
+    "description": "PHP/rabbitmq-based job queue",
+    "keywords": [
+        "lzq",
+        "php",
+        "rabbitmq",
+        "job",
+        "queue"
+    ],
+    "homepage": "http://github.com/lightster/lzq-shell",
+    "autoload": {
+        "psr-0": {
+            "Lzq\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "videlalvaro/php-amqplib": "2.1.0"
+    }
+}
